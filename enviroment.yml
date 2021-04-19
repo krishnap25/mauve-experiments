@@ -1,0 +1,14 @@
+name: mauve-experiments
+channels:
+    - conda-forge
+    - anaconda
+dependencies:
+  - python=3.8
+  - pip
+  - numpy=1.19.2
+  - scikit-learn=0.24.1
+  - nltk=3.4.5
+  - tqdm=4.40.0
+  - requests
+  - pip:
+    - faiss-gpu==1.7.0
