@@ -53,8 +53,8 @@ We use the webtext data from the [GPT-2 output dataset repository](https://githu
 For the purpose of reproducing these experiments, 
 it suffices to simply download the test set of webtext. 
 To this end, run:
-```bash
-bash local_scripts/download_data.py
+```python
+python local_scripts/download_data.py
 ```
 The data is downloaded to the folder `./data` and pass `--data_dir ./data` for all scripts below.
 
