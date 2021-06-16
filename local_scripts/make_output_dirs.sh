@@ -9,5 +9,6 @@ do
     mkdir -p ${outer_dir}/${dir}/ref
     mkdir -p ${outer_dir}/${dir}/basic
 done
+done
 
 
