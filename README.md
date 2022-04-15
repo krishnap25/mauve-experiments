@@ -1,8 +1,8 @@
 # mauve-experiments
 
 This repository contains the code and the scripts to reproduce the experiments 
-[in this paper](https://arxiv.org/pdf/2102.01454.pdf).
-The paper introduces MAUVE, an evaluation metric for open-ended text generation.
+[in this paper](https://arxiv.org/pdf/2102.01454.pdf) published at **NeurIPS 2021** and awarded an **Outstanding Paper Award**.
+The paper introduces MAUVE, a comparison measure for open-ended text generation.
 
 MAUVE directly  compares  the distribution of machine-generated text to 
 that of human language as the area under the divergence curve for the two distributions. 
@@ -185,11 +185,11 @@ Outputs are written to
 ## Citation
 If you find this repository useful, or you use it in your research, please cite:
 ```
-@article{pillutla-etal:mauve:preprint2021,
-title = {{MAUVE: Human-Machine Divergence Curves for Evaluating Open-Ended Text Generation}},
-author = {Krishna Pillutla and Swabha Swayamdipta and Rowan Zellers and John Thickstun and Yejin Choi and Zaid Harchaoui}
-journal={arXiv preprint},
-year = {2021},
+@inproceedings{pillutla-etal:mauve:neurips2021,
+  title={MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers},
+  author={Pillutla, Krishna and Swayamdipta, Swabha and Zellers, Rowan and Thickstun, John and Welleck, Sean and Choi, Yejin and Harchaoui, Zaid},
+  booktitle = {NeurIPS},
+  year      = {2021}
 }
 ```
     
