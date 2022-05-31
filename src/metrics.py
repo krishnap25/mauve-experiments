@@ -60,7 +60,7 @@ def js_score_1(p, sen):
     return (js1 + js2).sum().item() * 0.5, count
 
 ######################
-# esp-perplexity score
+# eps-perplexity score
 ######################
 def eps_perplexity(p, sen, eps, vocab_size):
     n = p.shape[1]  # seq_len
