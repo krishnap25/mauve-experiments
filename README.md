@@ -14,6 +14,11 @@ _**Standalone package**: For a self-contained package to compute MAUVE, installa
 via `pip install mauve-text`, please 
 see [this repository](https://github.com/krishnap25/mauve)._
 
+**Summary**:
+* The rest of the README describes how to create the generations and reproduce the experiments described in the paper.
+* To download the generations used in the papers, see [here](https://github.com/krishnap25/mauve-experiments/blob/main/download_generations.md). This will still require you to featurize the generations and compute the metrics.
+* The data we collected in the human evaluations can be found [here](https://github.com/krishnap25/mauve-experiments/blob/main/human_evaluation.md). The code to compute the corresponding Bradley-Terry coefficients can be found [here](https://github.com/krishnap25/mauve-experiments/blob/main/human_eval-compute_BT_scores.ipynb).
+
 ## Dependencies
 The code is written in Python and the dependencies are:
 - Python >= 3.6
@@ -191,6 +196,14 @@ If you find this repository useful, or you use it in your research, please cite:
   booktitle = {NeurIPS},
   year      = {2021}
 }
+
+@article{pillutla-etal:mauve:preprint2022,
+  title={{MAUVE Scores for Generative Models: Theory and Practice}},
+  author={Pillutla, Krishna and Liu, Lang and Thickstun, John and Welleck, Sean and Swayamdipta, Swabha and Zellers, Rowan and Oh, Sewoong and Choi, Yejin and Harchaoui, Zaid},
+  journal={arXiv Preprint},
+  year={2022}
+}
+
 ```
     
 ## Acknowledgements
